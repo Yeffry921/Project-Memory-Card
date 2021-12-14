@@ -1,0 +1,12 @@
+header {
+  background-color: #4EA24E;
+  color: #fff;
+  padding: 2em;
+}
+header h1 {
+  margin-bottom: 1rem;
+}
+header span {
+  display: block;
+  margin: .3rem 0;
+}
