@@ -2,7 +2,6 @@ import React, {  } from "react";
 
 import './css/reset.css'
 import './css/globals.css'
-import './css/mediaQuery.css'
 import FruitApp from "./components/FruitApp";
 
 const App = () => {
