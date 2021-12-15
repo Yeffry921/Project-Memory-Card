@@ -1,15 +1,14 @@
-import React, { useState } from "react";
+import React, {  } from "react";
 
 import './css/reset.css'
 import './css/globals.css'
-
-import fruitData  from "./data";
-import Header from "./components/Header";
+import './css/mediaQuery.css'
+import FruitApp from "./components/FruitApp";
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <FruitApp/>
     </div>
   );
 }
