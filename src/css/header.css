@@ -10,3 +10,9 @@ header span {
   display: block;
   margin: .3rem 0;
 }
+.header__scores-wrapper {
+  margin-bottom: 1.5rem;
+}
+.header__description-wrapper {
+  font-size: 1.2rem;
+}
