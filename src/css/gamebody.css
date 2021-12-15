@@ -1,0 +1,30 @@
+.game__card-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 1.5rem;
+}
+
+.game__card {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  width: 320px;
+  height: 315px;
+}
+
+.game__card img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+}
+
+.game__card p {
+  text-align: center;
+}
+
