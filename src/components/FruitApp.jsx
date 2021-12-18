@@ -34,7 +34,9 @@ const FruitApp = () => {
   }
 
   const placeHighScore = () => {
-    setHighScore(score)
+    if(score > highScore) {
+      setHighScore(score)
+    }
   }
 
   console.log(fruits)
