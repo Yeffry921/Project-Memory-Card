@@ -5,17 +5,16 @@ import GameBody from "./GameBody";
 import data from '../data'
 
 const FruitApp = () => {
-
   const [score, setScore] = useState(0)
   const [highScore, setHighScore] = useState(0)
   const [fruitsClicked, setFruits] = useState([])
   const [fruitData, setFruitData] = useState(data)
 
-  useEffect(()=> {
-    const shuffleArray = (array) => {
-      return array.sort(() => Math.random() - 0.5);
-    }
+  const shuffleArray = (array) => {
+    return array.sort(() => Math.random() - 0.5);
+  }
 
+  useEffect(()=> {
     const shuffledFruits = shuffleArray(data)
     setFruitData(shuffledFruits)
 
