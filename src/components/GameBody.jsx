@@ -1,15 +1,12 @@
-import React, { useEffect, useState } from 'react'
-
-import data from '../data'
 import '../css/gamebody.css'
 import '../css/mediaQuery.css'
 
 
-const GameBody = ({ onClickedFruits }) => {
+const GameBody = ({ onClickedFruits, fruitDataState }) => {
 
   return (
     <div className='game__card-wrapper'>
-      {data.map((fruit) => {
+      {fruitDataState.map((fruit) => {
         return (
           <div className='game__card' key={fruit.id} onClick={(e) => onClickedFruits(e, fruit.id)}>
             <img src={fruit.src} alt={fruit.name} />
